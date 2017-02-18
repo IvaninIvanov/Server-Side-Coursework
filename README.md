@@ -21,7 +21,13 @@ This is an individual coursework, so whilst you are allowed to discuss both the 
   npm install
   ```
 
-4. Run the tests by typing:
+3. To download the artifact dependencies (express) navigate to artifact/server/ and type:
+
+  ```bash
+  npm install
+  ```
+
+4. Run the tests by going back to root directory and typing:
 
   ```bash
   npm test
@@ -30,23 +36,8 @@ This is an individual coursework, so whilst you are allowed to discuss both the 
 
 ## Structure
 
-Unit tests are in the same format that you have completed in the preceeding weeks and are specified in `test.js`.  To run the unit tests you should run `npm test` as you have been doing for the server worksheets.  There are unit tests for everything described below.
-
-You **must** only change files in the `artifact` folder, as that is all you will be submitting.
-
-## Preparation / Submission / Upload
-When you have completed all the tests to the best of your ability, type:
-
-```shell
-npm run zip
-```
-
-This will create a zipped submission file titled `artifact_000000.zip` (and it will helpfully automatically use your ID instead of 000000).  This file should be uploaded to the dropbox on moodle.  Zip is the only acceptable file format - DO NOT use any other file compression format!
-
-### Hints
-* It is unlikely that you will need to create anything other than `.js` and `.json` files.
-* We have built a solution that passes all the tests.  With comments removed the server is 57 lines of code and the utility module is 8 lines.  65 lines total - without trying to compress things - so don't go berserk with the amount you write!
-* When all the tests pass, work on the quality, readability, and maintainability of your code.
+Main deliverable folder is artifact/ 
+Main piece of work is artifact/server/server.js
 
 ## What you have to do
 
@@ -118,7 +109,3 @@ The function will remove an element from an array: it **must not** change the or
 ## A note on security (the lack of it)
 We have not looked at authentication and authorization yet, so this service is completely open to everyone and therefore clearly impractical in the real world — however — it exercises the server-side material we have been looking at in the last 6 weeks.
 
-# Finally
-We hope you enjoy this test - we've tried to keep it challenging-enough to cause you some head-scratching, but small-enough to be easily finishable within the time available.
-
-Good luck!
