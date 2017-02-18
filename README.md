@@ -7,15 +7,9 @@ This is an individual coursework, so whilst you are allowed to discuss both the 
 
 ## Preparation
 
-1. To download the code download the zip file from moodle.
+1. Download/clone.
 
-2. Unpack it as follows:
-  ```shell
-  unzip ws_cwk2.zip
-  cd ws_cwk2
-  ```
-
-3. To download the dependencies (QUnit and Archiver) type:
+3. To download the dependencies (QUnit and Archiver) type (top-level dir):
 
   ```bash
   npm install
@@ -27,7 +21,7 @@ This is an individual coursework, so whilst you are allowed to discuss both the 
   npm install
   ```
 
-4. Run the tests by going back to root directory and typing:
+4. Run the tests by going back to top-level directory and typing:
 
   ```bash
   npm test
