@@ -31,6 +31,7 @@ This is an individual coursework, so whilst you are allowed to discuss both the 
 ## Structure
 
 Main deliverable folder is artifact/ 
+
 Main piece of work is artifact/server/server.js
 
 ## What you have to do
