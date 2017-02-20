@@ -34,7 +34,7 @@ Main deliverable folder is artifact/
 
 Main piece of work is artifact/server/server.js
 
-## What you have to do
+## Task(s)
 
 * We have created an API for a story-sharing service called JSBook.
 * You must create a server which implements this API.
